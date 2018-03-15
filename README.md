@@ -11,8 +11,10 @@ mvn archetype:generate -DartifactId=produtos -DgroupId=br.com.alura.maven -Dinte
 mvn archetype:generate -D"artifactId=produtos" -D"groupId=br.com.alura.maven" -D"interactiveMode=false" -D"achetypeArtifactId=maven-archetype-quickstart"
 ```
     
-## Ciclo de vida do maven: (OBS- na sequencia, ou seja para rodar um comando abaixo ele vai rodar antes seu comando antecessor.
+- Ciclo de vida do maven: 
+(OBS- na sequencia, ou seja para rodar um comando abaixo ele vai rodar antes seu comando antecessor.
 exemplo, para rodar "mvn package" o maven vai rodar "mvn validate compile test package". 
+```
 1-validate, 
 2-compile, 
 3-test, 
@@ -21,7 +23,7 @@ exemplo, para rodar "mvn package" o maven vai rodar "mvn validate compile test p
 6-verify, 
 7-install, 
 8-deploy.
-
+```
 - Rodando um comando mvn sem test: 
 ```mvn -DskipTests=true package```
 - Comilando o projeto: 
