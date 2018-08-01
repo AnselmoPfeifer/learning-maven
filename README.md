@@ -18,11 +18,10 @@ exemplo, para rodar "mvn package" o maven vai rodar "mvn validate compile test p
 1-validate, 
 2-compile, 
 3-test, 
-4-package, 
-5-integration-test, 
-6-verify, 
-7-install, 
-8-deploy.
+4-package,
+5-verify, 
+6-install, 
+7-deploy.
 ```
 - Rodando um comando mvn sem test: 
 ```mvn -DskipTests=true package```
